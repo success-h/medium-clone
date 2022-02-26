@@ -6,7 +6,6 @@ interface Props {
 }
 
 const CommentList: React.FC<Props> = ({ post }) => {
-  console.log('POST:', post)
   return (
     <div className="mx-5 mt-10 border p-5 hover:shadow-sm hover:shadow-sky-500 sm:mx-auto">
       <h2 className="py-3 font-sans text-2xl font-bold">Comments</h2>

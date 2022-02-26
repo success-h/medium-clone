@@ -27,17 +27,14 @@ const Comment: React.FC<Props> = ({ post }) => {
 
   const onSubmit: SubmitHandler<IFormInput> = (data) => {
     const { name, email, comment } = data
-    console.log('data:', _id)
     fetch('/api/createcomment', {
       method: 'POST',
       body: JSON.stringify({ _id, name, email, comment }),
     })
       .then(() => {
         setSubmitted(true)
-        console.log(data)
       })
       .catch((err) => {
-        console.log('err:', err)
         setSubmitted(false)
       })
   }

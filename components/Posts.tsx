@@ -31,7 +31,7 @@ const Posts: React.FC<Props> = ({ posts }) => (
             <img
               className="h-60 w-full object-cover transition-transform duration-200 ease-in-out group-hover:scale-105"
               alt={post.title}
-              src={urlFor(post.mainImage).url()}
+              src={urlFor(post.mainImage).url()!}
             />
             <div className="z-20 flex justify-between bg-white p-5">
               <div className="">
@@ -49,7 +49,7 @@ const Posts: React.FC<Props> = ({ posts }) => (
                 }}
                 className="max-h-50 max-w-12 rounded-full"
                 alt={post.author.name}
-                src={urlFor(post.author.image).url()!}
+                src={urlFor(post.author.image).url()}
               />
             </div>
           </div>
