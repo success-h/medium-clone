@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
           priority
           alt="logo"
           className="w-32"
-          src="https://res.cloudinary.com/dp3a4be7p/image/upload/v1645725701/mediumlogo_m7sstc.png"
+          src="/mediumlogo.png"
         />
       </div>
     </div>
