@@ -8,7 +8,7 @@ const Header: () => JSX.Element = () => {
       <div className="flex items-center">
         <Link href="/">
           <Image
-            src="https://res.cloudinary.com/dp3a4be7p/image/upload/v1645719589/mediun_xgwao9.png"
+            src="/mediun.png"
             alt="Medium logo"
             width={150}
             height={40}
