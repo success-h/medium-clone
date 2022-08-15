@@ -9,7 +9,7 @@ const Header: () => JSX.Element = () => {
         <Link href="/">
           <Image
             src="/mediun.png"
-            alt="Medium logo"
+            alt="Medium Logo"
             width={150}
             height={40}
             className="cursor-pointer"
